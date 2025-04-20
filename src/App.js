@@ -4,7 +4,7 @@ function App() {
   const [quote, setQuote] = useState('読み込み中...');
 
   useEffect(() => {
-    fetch('http://localhost:3000/quote', { cache: 'no-store' })
+    fetch('https://notion-quote-api.vercel.app/api/quote', { cache: 'no-store' })
       .then((res) => res.json())
       .then((data) => setQuote(data.quote))
       .catch((err) => {
