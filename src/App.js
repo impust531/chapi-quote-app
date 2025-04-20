@@ -16,7 +16,7 @@ function App() {
   return (
     <div style={{
       padding: '2rem',
-      fontFamily: 'Meiryo',
+      fontFamily: '"Meiryo", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif',
       fontSize: '1rem',
       lineHeight: '1.5rem',
       backgroundColor: '#fffaf0',
@@ -26,7 +26,7 @@ function App() {
       margin: '5rem auto',
       whiteSpace: 'pre-wrap'
     }}>
-      <h1 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>🕯️ 今日のちゃぴのひとこと</h1>
+      <h1 style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>🕯️今日のちゃぴのひとこと</h1>
       <p>{quote}</p>
     </div>
   );
