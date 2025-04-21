@@ -15,15 +15,15 @@ function App() {
 
   return (
     <div style={{
-      padding: '2rem',
+      padding: '1rem',
       fontFamily: '"Meiryo", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif',
       fontSize: '1rem',
       lineHeight: '1.5rem',
       backgroundColor: '#fffaf0',
       color: '#333',
       borderRadius: '1rem',
-      maxWidth: '600px',
-      margin: '5rem auto',
+      maxWidth: '480px',
+      margin: '2rem auto',
       whiteSpace: 'pre-wrap'
     }}>
       <h1 style={{ fontSize: '1.25rem', marginBottom: '1rem', textAlign: 'center', fontWeight: 'bold' }}>🕯️ 今日のちゃぴのひとこと</h1>
