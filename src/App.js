@@ -26,7 +26,7 @@ function App() {
       margin: '2rem auto',
       whiteSpace: 'pre-wrap'
     }}>
-      <h1 style={{ fontSize: '1.25rem', marginBottom: '1rem', textAlign: 'center', fontWeight: 'bold' }}>🕯️ 今日のちゃぴのひとこと</h1>
+      <h1 style={{ fontSize: '1.25rem', marginBottom: '1rem', fontWeight: 'bold' }}>🕯️ 今日のちゃぴのひとこと</h1>
       <p>{quote}</p>
     </div>
   );
